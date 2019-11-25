@@ -1,4 +1,6 @@
 " Map escapes to jj
+" Think twice if you want "jj" in insert mode to work as ESC for you,
+" it is more ergomonic but it can be pretty confusing.
 inoremap jj <ESC>
 
 " Set the curpor line highliting and matches when searching
