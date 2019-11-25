@@ -1,4 +1,30 @@
-# Revising ASR Transcript in VIM on Linux (Jonas solution)
+# Revising ASR Transcript in VIM on Linux
+
+Recommended usage:
+
+```
+# symlink your favourite vimrc to .vimrc (in this directory)
+ln -s ondrej-vimrc .vimrc
+```
+
+## Ondrej's Solution
+
+Run ``mplayer`` in slave mode:
+
+```
+mkfifo /tmp/mplayer-slave-fifo-file
+mplayer -slave -input file=/tmp/mplayer-slave-fifo-file YOUR-INPUT-SOUND-FILE
+```
+
+Launch ``vim`` with Ondrej's vimrc:
+```
+ln -s ondrej-vimrc .vimrc
+vim YOUR-INITIAL-TRANSCRIPT-FILE
+```
+
+See ``ondrej-vimrc`` for key bindings.
+
+## Jonas' Solution
 
 Play audio by sox command `play` for example:
 ```

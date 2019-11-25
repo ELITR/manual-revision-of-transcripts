@@ -1,0 +1,33 @@
+" Consider using mouse in xterm
+" It will alow you to quickly move cursor to the right word.
+set mouse=a
+
+" Sound-controlling macros:
+map <Space> :silent !echo pause > /tmp/mplayer-slave-fifo-file<CR><C-L>
+  " Pause/Play with space
+map <S-Left> :silent !echo seek -3 > /tmp/mplayer-slave-fifo-file<CR><C-L>
+map <S-Right> :silent !echo seek -3 > /tmp/mplayer-slave-fifo-file<CR><C-L>
+map <S-PageUp> :silent !echo seek -12 > /tmp/mplayer-slave-fifo-file<CR><C-L>
+map <S-PageDown> :silent !echo seek +12 > /tmp/mplayer-slave-fifo-file<CR><C-L>
+  " Jump +- 3 or 12 seconds with shift-left/right/pgup/pgdn
+  " the pageup/down does not really work
+map <S-Up> :silent !echo speed_incr +0.1 > /tmp/mplayer-slave-fifo-file<CR><C-L>
+map <S-Down> :silent !echo speed_incr -0.1 > /tmp/mplayer-slave-fifo-file<CR><C-L>
+  " Speed up / Slow down with shift-up/down
+
+
+" Text-fixing macros:
+" "current word" is the word which currently contains the cursor
+" so commonly, you click the mouse at a word and then type the macro
+
+map <F1> ? <CR>i,<ESC>
+  " Insert a comma before the current word.
+map <F2> ? <CR>i.<CR><ESC>~
+  " Start a new sentence with the current word, i.e.
+  " insert full stop before the (space before the) current word
+  " and insert a newline, and upcase.
+map <F3> b~
+  " upcase the current word
+
+" make sure to show as much as possible from the last (too long) line
+set display+=lastline
