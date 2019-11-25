@@ -1,6 +1,11 @@
 # Revising ASR Transcript in VIM on Linux (Jonas solution)
 
-I like to use vim + keyboard shortcuts. For play and stop of audio I use combination of alt+shift+backspace and for rewinding I use left arrow (I have arrows disabled inside vim so that is does not confuse with inside vim movement).
+Play audio by sox command `play` for example:
+```
+play file.wav
+```
+Now in separate tab of terminal open vim with the transcript you want to correct.
+I use shortcuts ctrl+p to stop the audio and ctrl+l to play it again (you can change the mapping in vimrc).
 I have remapped my escape key to jump to normal mode to more convenient combination of `jj` which is right in the middle of a keyboard. I think that it is more efficient to remap it to that as especially during transcript correction you jump between vim modes quite often so it is nice to save the effort of stretching all the way to `esc` button. 
 Inside vim I use the standard shortcuts for modifying the text:
 ```
