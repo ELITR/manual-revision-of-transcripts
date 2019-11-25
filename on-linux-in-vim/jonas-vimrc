@@ -1,0 +1,34 @@
+execute pathogen#infect()
+syntax on
+set number                     " Show current line number
+set relativenumber             " Show relative line numbers
+filetype plugin indent on
+syntax enable
+let g:solarized_termcolors=256
+set background=light
+colorscheme solarized
+set rtp+=~/.vim/bundle
+set sessionoptions-=options
+nmap <1> :TagbarToggle<CR>
+let g:indent_guides_enable_on_vim_startup = 1
+:set tabstop=4 expandtab shiftwidth=4 softtabstop=4
+inoremap jj <ESC>
+noremap <Down> <Nop>
+noremap <Up> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
+map <C-n> :NERDTreeToggle<CR>
+
+map <C-j> <C-W>j
+map <C-k> <C-W>k
+map <C-h> <C-W>h
+map <C-l> <C-W>l
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
