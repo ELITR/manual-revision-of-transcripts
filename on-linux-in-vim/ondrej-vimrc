@@ -6,7 +6,7 @@ set mouse=a
 map <Space> :silent !echo pause > /tmp/mplayer-slave-fifo-file<CR><C-L>
   " Pause/Play with space
 map <S-Left> :silent !echo seek -3 > /tmp/mplayer-slave-fifo-file<CR><C-L>
-map <S-Right> :silent !echo seek -3 > /tmp/mplayer-slave-fifo-file<CR><C-L>
+map <S-Right> :silent !echo seek +3 > /tmp/mplayer-slave-fifo-file<CR><C-L>
 map <S-PageUp> :silent !echo seek -12 > /tmp/mplayer-slave-fifo-file<CR><C-L>
 map <S-PageDown> :silent !echo seek +12 > /tmp/mplayer-slave-fifo-file<CR><C-L>
   " Jump +- 3 or 12 seconds with shift-left/right/pgup/pgdn
