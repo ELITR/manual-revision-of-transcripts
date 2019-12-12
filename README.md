@@ -17,3 +17,8 @@ Depending on the particular editing environment, please try to adhere to the fol
   - spelled out (write down these words to the transcript): ``forty four``, ``Czech Tech`` (if the abbreviation was not spelled letter by letter ["C-T-U"])
   - condensed (write down abbreviations to transcripts): ``44``, ``CTU``
   - In any case avoid _expanding_ what was said, so do not write ``Czech Technical University`` when the person said CzechTech
+- in most cases transcribe exactly what was said. this includes: 
+	* repeated words
+  * grammatical errors
+  * semantic errors, e.g. incorrect word choice in non-native speech
+  * exceptions from this include transcribing with presentation in mind, e.g. youtube subitles, where we should aim for readability
