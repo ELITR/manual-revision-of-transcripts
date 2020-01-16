@@ -6,6 +6,7 @@ This repo contains our recommendations and tools for manual revision of speech t
 - Amara subtitle editor (please add a subdir and a README how to do it)
 - Filmtit + Matus Namesny's project (talk to Ondrej Bojar if we could revive this)
 - TranscriberAG (http://transag.sourceforge.net/)
+- if you want to transcribe publicly available sources (e.g. youtube videos) you can use oTranscribe (https://otranscribe.com/)
 
 ## Minimal Annotation Guidelines
 
