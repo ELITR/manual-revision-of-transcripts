@@ -15,14 +15,15 @@ This repo contains our recommendations and tools for manual revision of speech t
 
 Depending on the particular editing environment, please try to adhere to the following annotation rules as much as possible:
 
-- full correct letter casing + punctuation
-- one line per sentence
-- handling of numbers and abbreviations is unclear; the following options seem equally good, but try to be consistent:
+- Full correct letter casing + punctuation
+- One line per sentence
+  + When in doubt if there was or was not a sentence boundary, *please mark it as if it was there*. We prefer more shorter sentences.
+- Handling of numbers and abbreviations is unclear; the following options seem equally good, but try to be consistent:
   - spelled out (write down these words to the transcript): ``forty four``, ``Czech Tech`` (if the abbreviation was not spelled letter by letter ["C-T-U"])
   - condensed (write down abbreviations to transcripts): ``44``, ``CTU``
   - In any case avoid _expanding_ what was said, so do not write ``Czech Technical University`` when the person said CzechTech
-- in most cases transcribe exactly what was said. this includes: 
-	* repeated words
-  * grammatical errors
-  * semantic errors, e.g. incorrect word choice in non-native speech
-  * exceptions from this include transcribing with presentation in mind, e.g. youtube subitles, where we should aim for readability
+- In most cases transcribe exactly the words that were said. This includes: 
+  * Repeated words
+  * Grammatical errors
+  * Semantic errors, e.g. incorrect word choice in non-native speech
+  * Exceptions from this include transcribing sound where the transcript is supposed to be publicly released. For instance when transcribing youtube videos and we directly want to keep the subtitles public, we should aim a little more for readability over verity.
