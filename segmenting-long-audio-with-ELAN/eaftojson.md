@@ -1,5 +1,5 @@
 
-Title: SLTev
+Title: Convert eaf file to json files
 authors: Ebrahim Ansari, Ondrej Bojar, Mohammad Mahmoudi
 Date: 23/03/2020
 Acknowledgment: XXX
