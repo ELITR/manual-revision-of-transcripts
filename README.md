@@ -10,6 +10,7 @@ This repo contains our recommendations and tools for manual revision of speech t
 - Subtitle Edit (https://www.nikse.dk/subtitleedit) is free, Windows-based
   - We could emit our ASR as subtitles and use Subtitle Edit to correct the transcript.
 - if you want to transcribe publicly available sources (e.g. youtube videos) you can use oTranscribe (https://otranscribe.com/)
+  - Someone might also want to test Descript (https://www.descript.com/)
 
 ## Minimal Annotation Guidelines
 
