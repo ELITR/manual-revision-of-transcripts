@@ -4,6 +4,7 @@ This repo contains our recommendations and tools for manual revision of speech t
 - ``on-linux-in-vim`` suggests how to do it on Linux with the text editor VIM
 - ``youtube-subtitle-editor`` suggests how to do it with youtube web editor
 - ``TLP``, the TransLectures Platform from UPV could be a great option for us.
+- Parlatype (https://www.parlatype.org/) is probably a great gnome option.
 - Amara (https://amara.org/) subtitle editor (please add a subdir and a README how to do it)
 - Filmtit + Matus Namesny's project (talk to Ondrej Bojar if we could revive this)
 - **TranscriberAG** (http://transag.sourceforge.net/) seems buggy at first but successfully worked for Daniel
